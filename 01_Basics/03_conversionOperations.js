@@ -10,3 +10,19 @@ console.log(valueInNumber);
 // true => 1; false => 0
 // undefined => NaN
 // null => 0
+
+let isLoggedIn = undefined;
+
+let booleanIsLoggedIn = Boolean(isLoggedIn);
+console.log(booleanIsLoggedIn);
+
+// 1 => true; 0 => false
+// "" => false
+// "hitesh" => true
+// null, undefined => false
+
+let someNumber = 33;
+
+let stringSomeNumber = String(someNumber);
+console.log(stringSomeNumber);
+console.log(typeof stringSomeNumber);
